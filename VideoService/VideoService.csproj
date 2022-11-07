@@ -56,14 +56,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IVideoFileReader.cs" />
-    <Compile Include="IVideoRepository.cs" />
+    <Compile Include="Core\IVideoFileReader.cs" />
+    <Compile Include="Core\IVideoRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Video.cs" />
-    <Compile Include="VideoContext.cs" />
-    <Compile Include="VideoFileReader.cs" />
-    <Compile Include="VideoRepository.cs" />
+    <Compile Include="DbContext\VideoContext.cs" />
+    <Compile Include="FileReader\VideoFileReader.cs" />
+    <Compile Include="Repository\VideoRepository.cs" />
     <Compile Include="VideoService.cs" />
   </ItemGroup>
   <ItemGroup>
