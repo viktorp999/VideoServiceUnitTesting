@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace VideoService
+namespace VideoService.VDbContext
 {
     public class VideoContext : DbContext
     {

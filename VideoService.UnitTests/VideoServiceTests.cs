@@ -2,6 +2,7 @@
 using System;
 using Moq;
 using System.Collections.Generic;
+using VideoService.Core;
 
 namespace VideoService.UnitTests
 {

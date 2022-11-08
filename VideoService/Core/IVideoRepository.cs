@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VideoService
+namespace VideoService.Core
 {
     public interface IVideoRepository
     {

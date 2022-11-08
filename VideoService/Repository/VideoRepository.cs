@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using VideoService.VDbContext;
+using VideoService.Core;
 
-namespace VideoService
+namespace VideoService.Repository
 {
     public class VideoRepository : IVideoRepository
     {

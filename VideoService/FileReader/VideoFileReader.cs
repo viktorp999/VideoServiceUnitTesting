@@ -1,6 +1,7 @@
 ﻿using System.IO;
+using VideoService.Core;
 
-namespace VideoService
+namespace VideoService.FileReader
 {
     public class VideoFileReader : IVideoFileReader
     {

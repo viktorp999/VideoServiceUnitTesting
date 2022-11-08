@@ -1,5 +1,5 @@
 ﻿
-namespace VideoService
+namespace VideoService.Core
 {
     public interface IVideoFileReader
     {
