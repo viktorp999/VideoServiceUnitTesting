@@ -21,7 +21,7 @@ namespace VideoService
         public string ReadVideoTitle()
         {
             var title = _videoreader.ReadVideoFile("video.txt");
-            var video = JsonConvert.DeserializeObject<Video>(title);
+            Video video = null;
 
             if (video == null)
             {

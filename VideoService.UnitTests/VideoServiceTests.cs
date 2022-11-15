@@ -24,7 +24,7 @@ namespace VideoService.UnitTests
         [Test]
         public void ReadVideoTitle_EmptyFile_ReturnError()
         {
-            _videoreader.Setup(vr => vr.ReadVideoFile("viteo.txt")).Returns("");
+            _videoreader.Setup(vr => vr.ReadVideoFile("video.txt")).Returns("");
 
             var result = _videoservice.ReadVideoTitle();
 

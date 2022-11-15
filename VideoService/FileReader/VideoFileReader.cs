@@ -7,7 +7,7 @@ namespace VideoService.FileReader
     {
         public string ReadVideoFile(string path)
         {
-            return File.ReadAllText(path);
+            return path;
         }
     }
 }
