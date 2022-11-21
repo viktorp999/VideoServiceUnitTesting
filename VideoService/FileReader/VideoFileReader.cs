@@ -1,5 +1,4 @@
-﻿using System.IO;
-using VideoService.Core;
+﻿using VideoService.Core;
 
 namespace VideoService.FileReader
 {
