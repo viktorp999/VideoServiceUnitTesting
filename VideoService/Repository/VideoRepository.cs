@@ -11,7 +11,10 @@ namespace VideoService.Repository
         {
             using (VideoContext context = new VideoContext())
             {
-                var videos = (from video in context.Videos where !video.IsProcessed select video).ToList();
+                var videos = (from video 
+                              in context.Videos 
+                              where !video.IsProcessed 
+                              select video).ToList();
 
                 return videos;
             }
