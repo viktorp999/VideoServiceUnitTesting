@@ -19,7 +19,7 @@ namespace VideoService.UnitTests
         }
 
         [Test]
-        public void GetUnprocessedVideosAsCsv_AllVideosAreProcessed_ReturnEmptyString()
+        public void GetVideosIDs_AllVideosAreProcessed_ReturnEmptyString()
         {
             _videorepository.Setup(r => r.GetUnprocessedVideos()).Returns(new List<Video>());
 
@@ -29,7 +29,7 @@ namespace VideoService.UnitTests
         }
 
         [Test]
-        public void GetUnprocessedVideosAsCsv_FewVideosAreUnProcessed_ReturnStringWithIDsOfUnprocessedVideos()
+        public void GetVideosIDs_FewVideosAreUnProcessed_ReturnStringWithIDsOfUnprocessedVideos()
         {
             _videorepository.Setup(r => r.GetUnprocessedVideos()).Returns(new List<Video>
             {
